@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+  <category>
+    <pattern>PROLOG</pattern>
+    <template>
+      Oh so you know that I can handle Prolog too. If you want to add a Prolog fact, reply with: (Add a Prolog fact). If you want to ask me a Prolog query, reply with: (Let me ask a Prolog query).
+    </template>
+  </category>
+
+  <category>
+    <pattern>ADD A PROLOG FACT</pattern>
+    <template>
+      Alright, let's do this hard thingie, <get name="name"/>. Believe me, I learned this the hard way. Write your fact in the format like: (Fact is: YOUR FACT)
+    </template>
+  </category>
+
+  <category>
+    <pattern>LET ME ASK A PROLOG QUERY</pattern>
+    <template>
+      Huh! Go ahead, <get name="name"/>. I spent days learning how to answer your this question. Anyways, I'm intelligent enough to tell you this now. Write your Prolog query in a format like: (Query is: YOUR QUERY)
+    </template>
+  </category>
+</aiml>

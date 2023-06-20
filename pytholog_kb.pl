@@ -1,0 +1,6 @@
+male(ali)
+male(ahmed)
+female(ayesha)
+parent(ali, ahmed)
+parent(ahmed, ayesha)
+father(X, Y):-male(X), parent(X, Y)

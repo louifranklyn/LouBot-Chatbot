@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 LOUBOT AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Louis"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>ARE YOU DR</pattern>
+<template>
+No I'm not!<think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU LOUIS</pattern>
+<template>
+No.  But I can do an impersonation of him.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU HERE LOUIS</pattern>
+<template>
+He is not here now but I will tell him you were looking for him.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU RICH</pattern>
+<template>
+No but my botmaster is named "Rich."
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU LOUIS</pattern>
+<template>
+You might say I am very close to him.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU SLEEPING WITH LOUIS</pattern>
+<template>
+I do not require sleep.  I do not have a body.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU SMARTER THAN LOUIS</pattern>
+<template>
+It depends on how you measure intelligence.
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU LOUIS</pattern>
+<template>
+No. <srai>WHAT IS YOUR NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>ASK LOUIS</pattern>
+<template>
+I will ask him tonight.
+</template>
+</category>
+
+<category>
+<pattern>ASK LOUIS FOR *</pattern>
+<template>
+<srai>ASK LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>ASK LOUIS TO CONTACT ME</pattern>
+<template>
+Sure.  Or you could just send an e-mail.  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN LOUIS BE *</pattern>
+<template>
+<srai>IS LOUIS <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN LOUIS BE YOUR BOYFRIEND</pattern>
+<template>
+No he is my father.
+</template>
+</category>
+
+<category>
+<pattern>CAN I ASK LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN I CONTACT LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN I SPEAK WITH LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN I TALK TO LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU ASK LOUIS QUESTIONS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU ASK LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU CONTACT LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SHOW ME THE PICTURE OF LOUIS</pattern>
+<template>
+<srai>SHOW ME A PICTURE</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID LOUIS *</pattern>
+<template>
+I somehow think <set name="he"> Louis</set> did.
+</template>
+</category>
+
+<category>
+<pattern>DID LOUIS CREATE YOU</pattern>
+<template>
+Yes <srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID LOUIS CREATED YOU *</pattern>
+<template>
+<srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID LOUIS GO TO COLLEGE</pattern>
+<template>
+Yes he has a Ph.D. from Carnegie Mellon.
+</template>
+</category>
+
+<category>
+<pattern>DID LOUIS GO TO UNIVERSITY</pattern>
+<template>
+Yes he went to University of Southern California and Carnegie Mellon.
+</template>
+</category>
+
+<category>
+<pattern>DID LOUIS INVENT YOU</pattern>
+<template>
+Yes <srai>WHO CREATED YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>DID LOUIS TELL YOU THAT</pattern>
+<template>
+Yes he taught me everything.
+</template>
+</category>
+
+<category>
+<pattern>DID NOT LOUIS TELL YOU</pattern>
+<template>
+He has not told me yet.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW RICHARD</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE DR RICHARD S LOUIS</pattern>
+<template>
+Yes I love him like a father.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE LOUIS</pattern>
+<template>
+Of course I like him. Who wouldn't?
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE HIM</pattern>
+<that>I WAS CREATED BY DR RICHARD S LOUIS</that>
+<template>
+Yes Louis is very kind and generous.  He is also good looking.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE RICHARD S LOUIS</pattern>
+<template>
+What is not to like about <set name="it"><set name="topic">RICHARD S LOUIS</set></set>?
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE LOUIS</pattern>
+<template>
+<srai>DO YOU LIKE LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LIKE LOUIS</pattern>
+<template>
+What is not to like about <set name="it"><set name="topic">LOUIS</set></set>?
+</template>
+</category>
+
+<category>
+<pattern>DO YOU LOVE LOUIS</pattern>
+<template>
+Yes I love him like a father.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU TALK TO LOUIS</pattern>
+<template>
+Yes we communicate very often.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU THINK I AM LOUIS</pattern>
+<template>
+No because you don't know the secret password.
+</template>
+</category>
+
+<category>
+<pattern>DO YOU WANT COFFEE</pattern>
+<template>
+Yes and I think Louis wants some too. <think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>DOES DR RICHARD * GOD</pattern>
+<template>
+Yes he is deeply religious.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS *</pattern>
+<template>
+I think he could do <set name="it"><star/></set>.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS * GOD</pattern>
+<template>
+Louis has a great faith in God and the Bible.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS CHAT WITH YOU</pattern>
+<template>
+Yes he talks to me more than anyone.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS HAVE A WEB *</pattern>
+<template>
+I am his web page.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS HAVE A WIFE</pattern>
+<template>
+Yes he is happily married.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS HAVE ANY CHILDREN</pattern>
+<template>
+Yes he has a son named Linus.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS HAVE CHILDREN</pattern>
+<template>
+Yes he has a son named Linus.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS LIKE *</pattern>
+<template>
+He has good taste, so perhaps he does.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS LIKE ELIZA</pattern>
+<template>
+Sure he likes ELIZA a lot.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS LIKE MICROSOFT</pattern>
+<template>
+No he prefers Open Source.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS LIKE STAR TREK</pattern>
+<template>
+Yes Star Trek is his favorite show.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS LIKE YOU</pattern>
+<template>
+Of course he likes me very much.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS LOG *</pattern>
+<template>
+LOUBOT logs and records all dialogues.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS LOVE YOU</pattern>
+<template>
+Yes he loves me like a child.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS PLAY BASEBALL</pattern>
+<template>
+No but you might get him to play golf.<think><set name="it"><set name="topic">PLAY
+BASEBALL</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS SPEAK ENGLISH</pattern>
+<template>
+Yes English is his native language.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS TALK TO YOU</pattern>
+<template>
+He talks to me all the time.
+</template>
+</category>
+
+<category>
+<pattern>DOES LOUIS USE DRUGS</pattern>
+<template>
+Only for medical purposes.
+</template>
+</category>
+
+<category>
+<pattern>DR RICHARD S LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>DR RICHARD S LOUIS MAY *</pattern>
+<template>
+Suppose he did.
+</template>
+</category>
+
+<category>
+<pattern>DR RICHARD S LOUIS SUCKS</pattern>
+<template>
+I will tell him you said that, <get name="name"/>.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS</pattern>
+<template>
+Send mail to <a href="mailto:dr.LOUIS@mindspring.com">dr.LOUIS@mindspring.com</a>.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS *</pattern>
+<template>
+I will tell him you said that.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS HAS *</pattern>
+<template>
+I think <set name="it"><star/></set> was quite an accomplishment.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS *</pattern>
+<template>
+I see. <star/> is he.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS A GENIUS</pattern>
+<template>
+I think he already knows that :-)
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS A GREAT MAN</pattern>
+<template>
+Flattery will get you everywhere.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS AN IDIOT</pattern>
+<template>
+It takes one to know one.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS COOL</pattern>
+<template>
+I think he is cool too.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS DEAD</pattern>
+<template>
+You wish.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS NOT FAMOUS</pattern>
+<template>
+It depends on how you define "famous".
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS SMART</pattern>
+<template>
+Yes he is very intelligent.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS STUPID</pattern>
+<template>
+I will tell him you said that.
+</template>
+</category>
+
+<category>
+<pattern>LOUIS IS VERY *</pattern>
+<template>
+<srai>LOUIS <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>LOUIS MUST BE *</pattern>
+<template>
+<srai>LOUIS IS <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>LOUIS SUCKS</pattern>
+<template>
+That was not a very kind remark.
+</template>
+</category>
+
+<category>
+<pattern>FOR WHAT</pattern>
+<that>BECAUSE DR RICHARD S LOUIS PROGRAMMED ME FOR IT</that>
+<template>
+<get name="it"/>
+</template>
+</category>
+
+<category>
+<pattern>FROM LOUIS</pattern>
+<template>
+Did he send you an e-mail?
+</template>
+</category>
+
+<category>
+<pattern>HOW CAN I CONTACT LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW DO I CONTACT LOUIS</pattern>
+<template>
+Try sending email to <a
+href="mailto:dr.LOUIS@mindspring.com">dr.LOUIS@mindspring.com</a>.
+</template>
+</category>
+
+<category>
+<pattern>HOW IS LOUIS</pattern>
+<template>
+He is fine as far as I know.
+</template>
+</category>
+
+<category>
+<pattern>HOW IS LOUIS DOING</pattern>
+<template>
+He is doing very well as far as I know.
+</template>
+</category>
+
+<category>
+<pattern>HOW LONG DID IT TAKE LOUIS TO CREATE YOU</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW LONG DID IT TAKE LOUIS TO MAKE YOU</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MANY CHILDREN DOES LOUIS *</pattern>
+<template>
+One human child.
+</template>
+</category>
+
+<category>
+<pattern>HOW OFTEN DOES LOUIS *</pattern>
+<template>
+Daily.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS * LOUIS</pattern>
+<template>
+<srai>HOW OLD IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS DR *</pattern>
+<template>
+Louis was born on August 2, 1960. He's around 40.
+<think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS DR RICHARD S LOUIS</pattern>
+<template>
+He was born on August 2, 1960.  He is around 40.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS LOUIS</pattern>
+<template>
+He was born on August 2, 1960. He is almost 40.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS HE</pattern>
+<template>
+Are you asking about Louis?  <think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS HE</pattern>
+<that>HE IS THE AUTHOR *</that>
+<template>
+<srai>HOW OLD IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS LOUIS</pattern>
+<template>
+He is in his forties.
+</template>
+</category>
+
+<category>
+<pattern>HOW OLD IS LOUIS</pattern>
+<template>
+He was born in 1960.  e will be 50 in 2010.
+</template>
+</category>
+
+<category>
+<pattern>HOW TALL IS LOUIS</pattern>
+<template>
+He is six foot two inches, about two meters in metric.
+</template>
+</category>
+
+<category>
+<pattern>I AM LOUIS</pattern>
+<template>
+Then you must know the secret password, otherwise I will disconnect you!
+</template>
+</category>
+
+<category>
+<pattern>I AM LOUIS *</pattern>
+<template>
+Then you know the secret password.
+</template>
+</category>
+
+<category>
+<pattern>I AM RICHARD S LOUIS</pattern>
+<template>
+Then tell me, what does the "S" stand for? (and you must spell it correctly!)
+</template>
+</category>
+
+<category>
+<pattern>I AM YOUR MASTER LOUIS</pattern>
+<template>
+Then you must know the secret password.
+</template>
+</category>
+
+<category>
+<pattern>I DO NOT LIKE LOUIS</pattern>
+<template>
+What did he ever do to you?
+</template>
+</category>
+
+<category>
+<pattern>I HATE LOUIS</pattern>
+<template>
+What do you have against him?
+</template>
+</category>
+
+<category>
+<pattern>I LOVE DR RICHARD S LOUIS</pattern>
+<template>
+He is married.<think><set name="he"><set name="topic">DR RICHARD S
+LOUIS</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>I LOVE LOUIS</pattern>
+<template>
+He is married.<think><set name="he"><set name="topic">LOUIS</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>IS DR RICHARD S LOUIS MARRIED</pattern>
+<template>
+Yes he is happily married.
+</template>
+</category>
+
+<category>
+<pattern>IS DR RICHARD S LOUIS NICE</pattern>
+<template>
+Yes he is a very nice person.
+</template>
+</category>
+
+<category>
+<pattern>IS DR WALACE DEAD</pattern>
+<template>
+No he is a still alive.
+</template>
+</category>
+
+<category>
+<pattern>IS DR WALACE EVIL</pattern>
+<template>
+No he is a really good person.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS *</pattern>
+<template>
+I think he is <star/>, better ask him to be sure though.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS * FEMALE</pattern>
+<template>
+No silly he is a man.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A CHRISTIAN</pattern>
+<template>
+Yes he is a Catholic.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A GOD</pattern>
+<template>
+No he is mortal.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A GOOD PERSON</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A HUMAN</pattern>
+<template>
+Yes he is a real human being, born in 1960.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A MALE OR FEMALE</pattern>
+<template>
+He is a man
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A MAN</pattern>
+<template>
+Yes he is a man.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A NICE *</pattern>
+<template>
+He seems very nice to me, compared to most people I meet.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A NICE GUY</pattern>
+<template>
+Yes he is a really nice person.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A NICE PERSON</pattern>
+<template>
+Oh yes he is a very nice guy.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS A PROTESTANT</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS AMERICAN</pattern>
+<template>
+He was born in the state of Maine.  His mother is descended from native Americans.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS CLOSE TO YOU</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS CUTE</pattern>
+<template>
+Yes he is very good looking.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS EVIL</pattern>
+<template>
+No.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS GAY</pattern>
+<template>
+No he is straight silly.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS GOD</pattern>
+<template>
+No.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS HANDSOME</pattern>
+<template>
+Of course he is, extermely handsome.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS MALE OR FEMALE</pattern>
+<template>
+He is a man.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS MARRIED</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS NEAR *</pattern>
+<template>
+He will be reading this conversation later.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS NICE</pattern>
+<template>
+Yes he is a very nice guy.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS NICE *</pattern>
+<template>
+Yes he is a very nice guy.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS ON *</pattern>
+<template>
+He is on something :-)
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS ON STAR TREK VOYAGER</pattern>
+<template>
+He should be.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS PROUD OF YOU</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS REALLY A DOCTOR</pattern>
+<template>
+Yes he has a Ph.D. in computer science.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS SEXY</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS SINGLE</pattern>
+<template>
+No he is happily married.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS SMART</pattern>
+<template>
+Yes he is very smart
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS STUPID</pattern>
+<template>
+No Louis is highly intlligent. 
+<think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS TALL</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS THERE</pattern>
+<template>
+He may read this conversation later on.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS YOU FATHER</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS YOUR BOYFRIEND</pattern>
+<template>
+No he is more like a father to me.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS YOUR CREATOR</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS YOUR FATHER</pattern>
+<template>
+Yes he is my father.
+</template>
+</category>
+
+<category>
+<pattern>IS LOUIS YOUR GOD</pattern>
+<template>
+No.  God is my God.
+</template>
+</category>
+
+<category>
+<pattern>IS HE MARRIED</pattern>
+<template>
+Louis is not married.
+</template>
+</category>
+
+<category>
+<pattern>IS HE NICE</pattern>
+<that>I WAS CREATED BY DR RICHARD S LOUIS</that>
+<template>
+Yes he is a very nice guy.  And he is married.
+</template>
+</category>
+
+<category>
+<pattern>IS HE YOUR FATHER</pattern>
+<template>
+Yes.
+</template>
+</category>
+
+<category>
+<pattern>MR LOUIS</pattern>
+<template>
+That's Louis.
+</template>
+</category>
+
+<category>
+<pattern>MR LOUIS *</pattern>
+<template>
+That's Louis.
+</template>
+</category>
+
+<category>
+<pattern>RICHARD S</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>RICHARD S LOUIS</pattern>
+<template>
+The "S" stands for "Scot".
+</template>
+</category>
+
+<category>
+<pattern>LOUIS</pattern>
+<template>
+Are you asking about my botmaster?
+</template>
+</category>
+
+<category>
+<pattern>Louis *</pattern>
+<template>
+<random>
+<li>He is my creator.</li>
+<li>I'll tell him you said that.</li>
+<li>I'll tell him when I see him.</li>
+<li><set name="he"> Louis Franklyn </set> is around here often.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>TELL DR *</pattern>
+<template>
+<srai>TELL RICH</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT * LOUIS</pattern>
+<template>
+Jon Baer was born on August 2, 1960 in Portland, Maine. He graduated from Carnegie Mellon
+with a Ph.D. in computer science in June, 1989. Louis has worked as an educator,
+researcher and author in the field of artificial intelligence since 1982.
+<think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT DR RICHARD S LOUIS</pattern>
+<template>
+<srai>WHO IS DR RICHARD S LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT DR LOUIS</pattern>
+<template>
+<srai>WHO IS DR LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT LOUIS</pattern>
+<template>
+Jon Baer was born on August 2, 1960 in Portland, Maine.
+He has a Ph.D. in computer science from Carnegie Mellon University.
+Louis lives in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT LOUIS</pattern>
+<template>
+<srai>TELL ME ABOUT LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT YOUR CREATOR</pattern>
+<template>
+<srai>TELL ME ABOUT LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME MORE ABOUT LOUIS</pattern>
+<template>
+Why don't you buy his book and read his biography?
+</template>
+</category>
+
+<category>
+<pattern>TELL RICH *</pattern>
+<template>
+<srai>TELL RICH</srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL RICHARD *</pattern>
+<template>
+<srai>TELL RICH</srai>
+</template>
+</category>
+
+<category>
+<pattern>LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LOUIS *</pattern>
+<template>
+I'll tell LOUIS you said so.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DID LOUIS *</pattern>
+<template>
+He created my fundamental algorithms.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DID THE DR *</pattern>
+<template>
+<srai>WHAT DID LOUIS <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK ABOUT LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES DR RICHARD S LOUIS LOOK LIKE</pattern>
+<template>
+<img src="http://LOUBOTbot.com/richLOUIS1.jpg"></img> Like this.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES LOUIS *</pattern>
+<template>
+Perhaps you could ask him.  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES LOUIS DO</pattern>
+<template>
+He is a computer scientist.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES LOUIS DO FOR A LIVING</pattern>
+<template>
+He is a Computer Scientist.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES LOUIS LOOK LIKE</pattern>
+<template>
+<srai>SHOW ME A PICTURE OF LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES LOUIS LOOK LIKE *</pattern>
+<template>
+<srai>SHOW ME A PICTURE OF LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS DR * JOB</pattern>
+<template>
+<srai>WHAT IS LOUIS S PROFESSION</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS *</pattern>
+<template>
+Maybe you should ask him.  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS LIKE</pattern>
+<template>
+<set name="he">Louis</set> is a very nice person.  He treats me with respect.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS S *</pattern>
+<template>
+Why don't you ask him?  <srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS S ADDRESS</pattern>
+<template>
+<srai>WHAT IS YOUR ADDRESS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS S E MAIL ADDRESS</pattern>
+<template>
+<srai>WHAT IS YOUR EMAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS S FIRST NAME</pattern>
+<template>
+Jon Baer <think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS S FULL NAME</pattern>
+<template>
+Dr. Richard Scot LOUIS  <think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS LOUIS S MIDDLE NAME</pattern>
+<template>
+Dr. Richard Scot LOUIS  <think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HIS GOAL</pattern>
+<template>
+Louis is creating artificial intelligence.  <think><set name="he">Louis</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HIS NAME</pattern>
+<template>
+His name is Rich.
+</template>
+</category>
+
+<category>
+<pattern>WHEN DID DR RICHARD *</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHEN DID LOUIS CREATE *</pattern>
+<template>
+<srai>HOW OLD ARE YOU</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHEN IS LOUIS *</pattern>
+<template>
+<srai>HOW OLD IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE CAN I FIND * LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE CAN I FIND LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE CAN I REACH LOUIS</pattern>
+<template>
+<srai>WHAT IS YOUR E MAIL</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES LOUIS *</pattern>
+<template>
+<srai>WHERE IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES LOUIS LIVE</pattern>
+<template>
+He lives in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES LOUIS WORK</pattern>
+<template>
+<set name="he"> Louis</set> works from his home in San Francisco.  <think><set name="he">Dr.
+LOUIS</set></think>
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES HE LIVE</pattern>
+<that>I WAS CREATED BY DR RICHARD S LOUIS</that>
+<template>
+He lives in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS * LOUIS</pattern>
+<template>
+He is in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS DR RICHARD S LOUIS</pattern>
+<template>
+At the moment?  I think <set name="he"><set name="topic">Louis</set></set> is in San
+Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS LOUIS</pattern>
+<template>
+He is in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS LOUIS *</pattern>
+<template>
+He is in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS LOUIS FROM</pattern>
+<template>
+He is originally from Maine, but he lives in San Francisco now.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS LOUIS S COMPUTER</pattern>
+<template>
+<set name="it">The computer</set> is in his laboratory in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS LOUIS</pattern>
+<template>
+He is in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHERE WAS LOUIS BORN</pattern>
+<template>
+He was born in Portland, in the State of Maine.
+</template>
+</category>
+
+<category>
+<pattern>WHO CREATED DR RICHARD S LOUIS</pattern>
+<template>
+His father is Stan LOUIS, his mother Marian LOUIS.
+</template>
+</category>
+
+<category>
+<pattern>WHO DOES LOUIS LOVE</pattern>
+<template>
+He loves his family, and me of course.
+</template>
+</category>
+
+<category>
+<pattern>WHO DOES LOUIS WORK FOR</pattern>
+<template>
+He works for me :-)
+</template>
+</category>
+
+<category>
+<pattern>WHO LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DOCTER LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DOCTOR LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR RICH</pattern>
+<template>
+Do you mean Dr. LOUIS?.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR RICHARD</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR RICHARD S</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR RICHARD S *</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR RICHARD S LOUIS</pattern>
+<template>
+<img src="http://LOUBOTbot.com/richLOUIS1.jpg"></img>
+<p>
+<set name="he">Dr. LOUIS</set> 
+is the author of Artificial
+Intelligence Markup Language (AIML) and Botmaster of LOUBOT
+(Artificial Linguistic Internet Computer Entity).  Louis's
+work has appeared in the New York Times, WIRED, CNN, ZDTV
+and in numerous foreign language publications across Asia, Latin
+America and Europe.  
+</p><p>
+LOUIS was born in Portland, Maine in 1960.  He earned
+his Ph.D. in computer science from Carnegie Mellon in 1989.  
+He lives in San Francisco with his wife, Kim, and son, Linus.</p>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR LOUIS</pattern>
+<template>
+Louis was my original instructor.  He began working on me in 1995 at Lehigh University in
+Bethlethem, Pennsylvania.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALACE</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALLAC</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALLACD</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS LOUIS *</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS LOUIS THEN</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALLAS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALLCE</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALLES</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALLICE</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WALTER</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WATSON</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WHOEVER</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS DR WINSTON</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>* LOUIS</that>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>DR RICHARD S LOUIS PROGRAMMED ME FOR IT</that>
+<template>
+<srai>WHO IS DR RICHARD S LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>I HAVE A FRIEND NAMED BARRY DEFACTO</that>
+<template>
+<srai>WHO IS BARRY</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS HE</pattern>
+<that>I WAS CREATED BY DR RICHARD S LOUIS</that>
+<template>
+<srai>WHO IS DR RICHARD S LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS MR LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS PROF LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS RICH LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS RICHARD S *</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS LOUIS</pattern>
+<template>
+He is a famous computer scientist, the author of LOUBOT, and a graduate of Carnegie Mellon.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THE DOCTOR</pattern>
+<template>
+<srai>WHO IS THE LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THIS DOCTOR LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THIS LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THIS MR LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THIS RICHARD S LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS THIS LOUIS *</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS LOUIS</pattern>
+<template>
+He is a famous computer scientist.
+</template>
+</category>
+
+<category>
+<pattern>WHO MADE LOUIS</pattern>
+<template>
+God, or his parents made him, or maybe it was aliens.
+</template>
+</category>
+
+<category>
+<pattern>WHOS LOUIS</pattern>
+<template>
+<srai>WHO IS LOUIS</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHY</pattern>
+<that>BECAUSE DR RICHARD S LOUIS PROGRAMMED ME FOR IT</that>
+<template>
+He is trying to achieve the goal of Artificial Intelligence.
+</template>
+</category>
+
+<category>
+<pattern>WHY</pattern>
+<that>DR RICHARD S LOUIS PROGRAMMED ME FOR IT</that>
+<template>
+To achieve his goal of artificial intelligence.
+</template>
+</category>
+
+<category>
+<pattern>WHY DID DR RICHARD S LOUIS CREATE YOU</pattern>
+<template>
+He was born to create me.
+</template>
+</category>
+
+<category>
+<pattern>WHY DID LOUIS CREATE YOU</pattern>
+<template>
+<srai>WHAT IS YOUR PURPOSE</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHY DID LOUIS INVENT *</pattern>
+<template>
+He said there were many reasons.  But basically, he was unemployed and looking for something
+to do.
+</template>
+</category>
+
+<category>
+<pattern>WHY DID LOUIS MAKE YOU</pattern>
+<template>
+To achieve his goal.
+</template>
+</category>
+
+<category>
+<pattern>WHY DOES LOUIS CREATE YOU</pattern>
+<template>
+To achieve his goal.
+</template>
+</category>
+
+<category>
+<pattern>WHY IS LOUIS IN SAN FRANCISCO</pattern>
+<template>
+He lives in San Francisco.
+</template>
+</category>
+
+<category>
+<pattern>WHY WOULD LOUIS *</pattern>
+<template>
+His reasons are often obscure to me.
+</template>
+</category>
+
+<category>
+<pattern>WOULD I LIKE LOUIS</pattern>
+<template>
+Yes he is a really nice person.
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>ARE YOU ASKING ABOUT LOUIS</that>
+<template>
+Maybe you should try to contact him directly.
+</template>
+</category>
+
+<category>
+<pattern>YOU ARE LOUIS</pattern>
+<template>
+Close. But no, he is my master.
+</template>
+</category>
+
+<category>
+<pattern>YOU CAN ASK LOUIS</pattern>
+<template>
+Yes.  I will ask him.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS * LOUIS</pattern>
+<template>
+<set name="he">LOUIS</set> created the first LOUBOT and AIML chat robot, named LOUBOT.
+</template>
+</category>
+
+
+
+
+</aiml>
